@@ -8,15 +8,22 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "imports": {
+    "#util": {
+      "react-server": "./src/util.rsc.ts",
+      "default": "./src/util.ts"
+    }
+  },
   "dependencies": {
+    "next": "14.1.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18"
+    "@types/react-dom": "^18",
+    "prettier": "^3.2.5",
+    "typescript": "^5"
   }
 }
