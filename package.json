@@ -10,8 +10,8 @@
   },
   "imports": {
     "#util": {
-      "react-server": "./src/util.rsc.ts",
-      "default": "./src/util.ts"
+      "react-server": "./src/util.react-server.ts",
+      "default": "./src/util.default.ts"
     }
   },
   "dependencies": {
